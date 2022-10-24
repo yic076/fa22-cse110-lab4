@@ -1,0 +1,2 @@
+1. The bug is that num1 and num2 are both passed in as Strings, so the + operator performed a string concatenation instead. 
+2. Just like how Boolean(2) was able to convert 2 into a True n an earlier comparison question, I can use Number(num) to convert both parameters to numbers and then + would add proeprly. 
